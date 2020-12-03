@@ -1,0 +1,51 @@
+#header-wrapper{
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    margin-bottom: 30px;
+}
+
+h2{
+    margin-top: 20px;
+    color: white;
+}
+
+#img-file{
+    display: flex;
+    flex-direction: column;
+}
+
+#img-logo{
+    width: 50%;
+    border-radius: 50px;
+}
+
+#input-wrapper{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 100px;
+}
+#input-fields{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    text-align: left;
+}
+label{
+    color: white;
+    margin-right: 20px;
+}
+#input-fields input{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    height: 30px;
+    color: white;
+}
